@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 test_dir = 'C:/3RD-YEAR/INDIVIDUAL PROJECT/Skin Classification/data/test'  # Update with actual path
 IMAGE_SIZE = (128, 128)
 BATCH_SIZE = 32
-MODEL_PATH = 'C:/3RD-YEAR/INDIVIDUAL PROJECT/Skin Classification/models/CNNFirst.h5'  # Update with your model's path
+MODEL_PATH = 'C:/3RD-YEAR/INDIVIDUAL PROJECT/Skin Classification/models/best_model.keras'  # Update with your model's path
 
 # Load the trained model
 model = load_model(MODEL_PATH)
